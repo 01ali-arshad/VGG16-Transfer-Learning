@@ -130,10 +130,10 @@ After testing different otimizers, learning rates and batch sizes. The following
 - optimizer = SGD
 - batch size = 128
 
-Accuracy of 91% is achieved on intel image classification dataset.
+Accuracy of 91% is achieved on intel image classification dataset. <br>
 ![Accuracy & loss curves](images/fig1.png)
 ### Predictions 
-Predictions on some test images can be seen below
+Predictions on some test images can be seen below <br>
 ![Predictions](images/fig3.png)
 
 
