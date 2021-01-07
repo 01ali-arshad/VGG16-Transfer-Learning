@@ -31,8 +31,8 @@ The Train, Test and Prediction data is separated in each zip files. It can be do
 - itertools
 
 ## Project structure
-\images - folder for images in README.md
-VGG16_transfer_learning.ipynb - VGG16 training file
+images - folder for images in README.md\
+VGG16_transfer_learning.ipynb - VGG16 training file\
 README.md - description of this project
 
 ## VGG Model
