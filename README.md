@@ -123,6 +123,11 @@ vgg16_clf = model.fit(train_dataset, validation_data = test_dataset, epochs = 10
 ```
 ## Weights
 The trained Weights can be downloaded from [here](https://drive.google.com/file/d/17ZZ8VP63ua4N0rdx4CRgKBfOJCs_-rKP/view?usp=sharing).
+For replicating results, compile model and load weights by using
+```
+model.load_weights('vgg_transfer_trained_wts.h5')
+```
+and use it for predictions.
 ## Results
 After testing different otimizers, learning rates and batch sizes. The following parametes gave better results.
 - learning rate = 0.001
